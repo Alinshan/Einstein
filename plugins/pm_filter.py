@@ -494,24 +494,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ms = await client.send_cached_media(
                     chat_id=CH_FILTER,
                     file_id=file_id,
-                    caption=f'<b><i>📟 Name : <a href=https://t.me/MWUpdatez>{title}</a></i></b>\n\n<b><i>🎗 Size : {size}</b></i>\n\n<i>⚠️ This Message Will Be Auto-Deleted In Next 5 Minutes T𝘰 Avoid Copyright Issues.So Forward This File To Anywhere Else Before Downloading.. ⚠️</i>\n\n<b><i>🧑🏻‍💻 Requested By : {query.from_user.mention}\n🚀 Group : {query.message.chat.title}</i></b>',
+                    caption=f'<b>Hey 👋 {query.from_user.mention} 😍\n\n🔖 Name : <i><a href=https://t.me/Spidey_Files>{title}</a></i></b>\n\n<b><i>🎗 Size : {size}</b></i>\n\n<i>⚠️ This Message Will Be Auto-Deleted In Next 3 Minutes T𝘰 Avoid Copyright Issues.So Forward This File To Anywhere Else Before Downloading.. ⚠️</i>\n\n<b><i>കോപ്പിറൈറ്റ് ഉള്ളതുകൊണ്ട് ഫയൽ 5 മിനിറ്റിനുള്ളിൽ ഇവിടെനിന്നും ഡിലീറ്റ് ആകുന്നതാണ് അതുകൊണ്ട് ഇവിടെ നിന്നും മറ്റെവിടെക്കെങ്കിലും മാറ്റിയതിന് ശേഷം ഡൗൺലോഡ് ചെയ്യുക ⚠️</i></b>',
                     protect_content=True if ident == "filep" else False 
                 )
                 msg1 = await query.message.reply(
-                f'<b><i>{query.from_user.mention} Your File Is Ready ✨</i></b>\n\n'
-                f'<b><i>📟 Name : <a href=https://t.me/MWUpdatez>{title}</a></i></b>\n\n'
+                f'<b><i>Hey 👋 {query.from_user.mention} 😍 \n\n📬 Your File Is Ready 👇</i></b>\n\n'
+                f'<b><i>🔖 Name : <a href=https://t.me/Spidey_Files>{title}</a></i></b>\n\n'
                 f'<b><i>🎗 Size : {size}</b></i>\n\n'
-                '<i>⚡️Click The Below Button For Files.⚡️</i>',
+                '<i>Click The Below Button For Files ⬇️</i>',
                 True,
                 'html',
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ғɪʟᴇ", url = ms.link)
+                            InlineKeyboardButton("📥 Download Link 📥", url = ms.link)
                         ],
                         [
-                            InlineKeyboardButton("ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴊᴏɪɴ ғɪʟᴇs ᴄʜᴀɴɴᴇʟ", url = f"{CH_LINK}")
+                            InlineKeyboardButton("⚠️ Can't Access ❓ Click Here ⚠️", url = f"{CH_LINK}")
                         ]
                     ]
                 )
