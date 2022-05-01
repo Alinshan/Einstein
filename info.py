@@ -94,7 +94,7 @@ MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
-DELETE_TIME = int(environ.get('DELETE_TIME', 180))
+DELETE_TIME = int(environ.get('DELETE_TIME', 300))
 CH_LINK = environ.get('CH_LINK', "https://t.me/Spidey_Files")
 CH_FILTER = int(environ.get('CH_FILTER', -1001793147026))
 
