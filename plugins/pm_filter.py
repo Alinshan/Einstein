@@ -174,7 +174,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"▫ {get_size(file.file_size)} ‣ {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -192,6 +192,19 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
+
+    btn.insert(0, 
+        [
+            InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst11')
+        ]
+    )
+    btn.insert(1,
+        [
+            InlineKeyboardButton(f'📂 ғɪʟᴇs: {total_results}', 'dupe'),
+            InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tipss'),
+            InlineKeyboardButton(f'📮 ɪɴғᴏ', 'infoo')
+        ]
+    )
 
     if 0 < offset <= 10:
         off_set = 0
@@ -1367,6 +1380,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
+    elif query.data == 'tipss':
+        await query.answer("🔰 Ask with correct spelling\n🔰 Don't ask movies those are not released in OTT Some Of Theatre Quality Available🤧\n🔰 For better results:\n\t\t\t\t\t\t- MovieName year\n\t\t\t\t\t\t- Eg: Kuruthi 2021\n\tⒸ ᴍᴏᴠɪᴇ ʜᴜʙ", True)
+    elif query.data == 'reqst11':
+        await query.answer("Hey Bro 😍\n\n🎯 Click On The Button below The Files You Want And Start The Bot ⬇️", True)
+    elif query.data == 'infoo':
+        await query.answer("⚠︎ Information ⚠︎\n\nAfter 3 minutes this message will be automatically deleted\n\nIf you do not see the requested movie / series file, look at the next page\n\nⒸ ᴍᴏᴠɪᴇ ʜᴜʙ", True)
+    elif query.data == 'moviess':
+        await query.answer("ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀsᴛᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴍᴀsᴛᴇʀ ᴏʀ ᴍᴀsᴛᴇʀ 2021\n\n🚯 ᴅᴏɴᴛ ᴜsᴇ ➠ ':(!,./)\n\nⒸ ᴍᴏᴠɪᴇ ʜᴜʙ", True)
+    elif query.data == 'seriess':
+        await query.answer("sᴇʀɪᴇs ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ sᴇʀɪᴇs ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀsᴛᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : Alive ᴏʀ Alive S01E01\n\n🚯 ᴅᴏɴᴛ ᴜsᴇ ➠ ':(!,./)\n\nⒸ ᴍᴏᴠɪᴇ ʜᴜʙ", True)
+    elif query.data == 'spellingg':
+        await query.answer("⚠️Search Google.com Find the Correct Spelling of Movie Name and Year. Type that in Group to get the Files⚠️", True)
+    try: await query.answer('Piracy Is Crime') 
+    except: pass
 
 async def auto_filter(client, msg, spoll=False):
     if not spoll:
@@ -1394,7 +1421,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"▫ {get_size(file.file_size)} ‣ {file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -1413,6 +1440,19 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
+
+    btn.insert(0, 
+        [
+            InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst11')
+        ]
+    )
+    btn.insert(1,
+        [
+            InlineKeyboardButton(f'📂 ғɪʟᴇs: {total_results}', 'dupe'),
+            InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tipss'),
+            InlineKeyboardButton(f'📮 ɪɴғᴏ', 'infoo')
+        ]
+    )
 
     if offset != "":
         key = f"{message.chat.id}-{message.message_id}"
@@ -1463,7 +1503,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Here is what i found for your query {search}"
+        cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍\n\n<i>🔖 Title : {search}\n📫 Your Files is Ready Now</i></b>"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
@@ -1477,6 +1517,10 @@ async def auto_filter(client, msg, spoll=False):
             await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     else:
         await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+    
+    await asyncio.sleep(DELETE_TIME)
+    await fmsg.delete()
+
     if spoll:
         await msg.message.delete()
 
