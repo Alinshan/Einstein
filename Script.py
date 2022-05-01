@@ -246,8 +246,8 @@ This module only works for my admins
     STATUS_TXT = """<b>📁 ᴛᴏᴛᴀʟ ғɪʟᴇs : <code>{}</code></b>
 <b>👤 ᴛᴏᴛᴀʟ ᴜsᴇʀs : <code>{}</code></b>
 <b>👥 ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘs : <code>{}</code></b>
-<b>🗃️ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ : <code>{}</code> 𝙼𝙱</b>
-<b>📂 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ : <code>{}</code> 𝙼𝙱</b>"""
+<b>🗃️ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ : <code>{}</code></b>
+<b>📂 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ : <code>{}</code></b>"""
     LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
    🔮 sᴘɪᴅᴇʏ ʙᴏᴛ 🔮
 <b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
