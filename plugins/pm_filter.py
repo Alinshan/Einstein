@@ -803,6 +803,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴘɪɴ', callback_data='pin'),
             InlineKeyboardButton("ᴛᴛs", callback_data='ttss')
             ],[
+            InlineKeyboardButton('⏪ ʙᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('⏺️ 1/3 ⏺️', callback_data='spshiva'),
+            InlineKeyboardButton('ɴᴇxᴛ ⏩', callback_data='helop')
+        ]]   
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.HELP_TXT.format(query.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )  
+    elif query.data == "helop":
+        buttons = [[
             InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun'), 
             InlineKeyboardButton('𝙹𝚂𝙾𝙽𝙴', callback_data='son'),
             InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='pastes')
@@ -833,7 +845,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.HELP_TXT.format(query.from_user.mention),
+            text=script.HELOP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode='html'
         )
