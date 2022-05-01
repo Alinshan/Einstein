@@ -10,11 +10,15 @@ Welcome to Help Area 1 🎁</b>"""
 Welcome to Help Area 2 🎁</b>"""
     HELOOP_TXT = """<b>Hᴇʟʟᴏ {}
 Welcome to Help Area 3 🎁</b>"""
-    SPSHIVA_TXT = """<b>Hᴇʟʟᴏ {}
-
-<i>This Is The Module Page Info</i>
+    SPSHIVA_TXT = """<b><i>This Is The Module Page Info</i>
 
 🔰 Your Taken Page Is 1/3 📖</b>"""
+    SPSHIVA2_TXT = """<b><i>This Is The Module Page Info</i>
+
+🔰 Your Taken Page Is 2/3 📖</b>"""
+    SPSHIVA3_TXT = """<b><i>This Is The Module Page Info</i>
+
+🔰 Your Taken Page Is 3/3 📖</b>"""
     ABOUT_TXT = """<b>🤖 𝖡ᴏᴛ ɴᴀᴍᴇ : <a href='http://t.me/Spidey_Autofilterbot'>sᴘɪᴅᴇʏ</a>
 
 📝 𝖫ᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/'>𝖯ʏᴛʜᴏɴ</a>
