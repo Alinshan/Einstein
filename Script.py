@@ -1,11 +1,12 @@
 class script(object):
     START_TXT = """<b>Hello {}</b>
+
 <i>Iam A Simple Auto Filter + Movie Search + Manual Filter Bot. I Can Provide Movies In Telegram Groups. You Can Search Movies Via Inline. I Can Also Add Filters In Telegram Groups.  Just Add Me To Your Group And Enjoy</i>
+
 <b>Made With ❤ BY <a href='https://t.me/Coby_Support'>MH Botz</a></b>"""
     HELP_TXT = """<b>Hᴇʟʟᴏ {}
 Welcome to Help Area 🎁</b>"""
-    ABOUT_TXT = """<b>
-🤖 𝖡ᴏᴛ ɴᴀᴍᴇ : <a href='http://t.me/Spidey_Autofilterbot'>sᴘɪᴅᴇʏ</a>
+    ABOUT_TXT = """<b>🤖 𝖡ᴏᴛ ɴᴀᴍᴇ : <a href='http://t.me/Spidey_Autofilterbot'>sᴘɪᴅᴇʏ</a>
 
 📝 𝖫ᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/'>𝖯ʏᴛʜᴏɴ</a>
 
