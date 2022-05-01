@@ -847,7 +847,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ᴛᴛs", callback_data='ttss')
             ],[
             InlineKeyboardButton('⏪ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('⏺️ 1/3 ⏺️', callback_data='spshiva'),
+            InlineKeyboardButton('⏺️  1/3  ⏺️', callback_data='spshiva'),
             InlineKeyboardButton('ɴᴇxᴛ ⏩', callback_data='helop')
         ]]   
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -870,8 +870,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric'),
             InlineKeyboardButton('ᴋɪᴄᴋ', callback_data='zombies')
             ],[
-            InlineKeyboardButton('⏪ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('⏺️ 2/3 ⏺️', callback_data='spshiva2'),
+            InlineKeyboardButton('⏪ ʙᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('⏺️  2/3  ⏺️', callback_data='spshiva2'),
             InlineKeyboardButton('ɴᴇxᴛ ⏩', callback_data='heloop')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -895,7 +895,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🔮 sᴛᴀᴛᴜs 🔮', callback_data='stats')
             ],[
-            InlineKeyboardButton('⏪ ʙᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('⏪ ʙᴀᴄᴋ', callback_data='helop'),
             InlineKeyboardButton('⏺️  3/3  ⏺️', callback_data='spshiva3'),
             InlineKeyboardButton('ʜᴏᴍᴇ 🏠', callback_data='helop')
         ]] 
