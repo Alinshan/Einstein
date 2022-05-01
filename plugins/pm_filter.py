@@ -896,7 +896,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔮 sᴛᴀᴛᴜs 🔮', callback_data='stats')
             ],[
             InlineKeyboardButton('⏪ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('⏺️ 3/3 ⏺️', callback_data='spshiva3'),
+            InlineKeyboardButton('⏺️  3/3  ⏺️', callback_data='spshiva3'),
             InlineKeyboardButton('ʜᴏᴍᴇ 🏠', callback_data='helop')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -958,8 +958,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons= [[
             InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ 👥', url='https://t.me/Coby_Support')
             ],[
-            InlineKeyboardButton('🏠 ʜᴏᴍᴇ 🏠', callback_data='start'),
-            InlineKeyboardButton('⛔ ᴄʟᴏsᴇ ⛔', callback_data='close_data')
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('⛔ ᴄʟᴏsᴇ', callback_data='close_data'),
+            InlineKeyboardButton('📝 sᴏᴜʀᴄᴇ', url='https://t.me/kgf_2_movie_r')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
