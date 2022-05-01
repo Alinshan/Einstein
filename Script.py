@@ -5,7 +5,16 @@ class script(object):
 
 <b>Made With ❤ BY <a href='https://t.me/Coby_Support'>MH Botz</a></b>"""
     HELP_TXT = """<b>Hᴇʟʟᴏ {}
-Welcome to Help Area 🎁</b>"""
+Welcome to Help Area 1 🎁</b>"""
+    HELOP_TXT = """<b>Hᴇʟʟᴏ {}
+Welcome to Help Area 2 🎁</b>"""
+    HELOOP_TXT = """<b>Hᴇʟʟᴏ {}
+Welcome to Help Area 3 🎁</b>"""
+    SPSHIVA_TXT = """<b>Hᴇʟʟᴏ {}
+
+<i>This Is The Module Page Info</i>
+
+🔰 Your Taken Page Is 1/3 📖</b>"""
     ABOUT_TXT = """<b>🤖 𝖡ᴏᴛ ɴᴀᴍᴇ : <a href='http://t.me/Spidey_Autofilterbot'>sᴘɪᴅᴇʏ</a>
 
 📝 𝖫ᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/'>𝖯ʏᴛʜᴏɴ</a>
