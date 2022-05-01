@@ -21,7 +21,7 @@ Welcome to Help Area 🎁</b>"""
 
 📢 𝖴ᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/+NeK_dvXeatwyMWRl'>𝖬𝖧 ʙᴏᴛs</a></b>"""
     
-      FILE_TXT = """➤ Help: File Store Module..🛃
+    FILE_TXT = """➤ Help: File Store Module..🛃
 
 <b><i>By Using This Module You Can Store Media,Files In My Database And I Will Give You A Permanent Link  To Access The Saved Media/Files.If You Want To Add Files From A Public Channel Send The File Link Only Or Want To Add Files From A Privet Channesl You Must Make Me Admin On The Channel To Access Media/Files...</i></b>
 
