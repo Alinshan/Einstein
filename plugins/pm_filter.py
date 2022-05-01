@@ -848,8 +848,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴜʀʟ-sʜᴏʀᴛ', callback_data='urlshort')
             ],[
             InlineKeyboardButton('ɢ-ᴛʀᴀɴs', callback_data='gtrans'),
-            InlineKeyboardButton('ғɪʟᴇ-sᴛᴏʀᴇ', callback_data='newdata'),
-            InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats')
+            InlineKeyboardButton('ғɪʟᴇ-sᴛᴏʀᴇ', callback_data='newdata')
+            ],[
+            InlineKeyboardButton('🔮 sᴛᴀᴛᴜs 🔮', callback_data='stats')
             ],[
             InlineKeyboardButton('⏪ ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('⏺️ 3/3 ⏺️', callback_data='spshiva3'),
@@ -912,7 +913,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('♥️ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ♥️', url='https://github.com/Aadhi000/Ajax')
+            InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ', url='https://github.com/Aadhi000/Ajax')
             ],[
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
@@ -925,6 +926,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "spshiva":
         buttons= [[
+            InlineKeyboardButton('⏪ ʙᴀᴄᴋ', callback_data='help')
+            ],[
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('⛔ ᴄʟᴏsᴇ', callback_data='close_data'),
             InlineKeyboardButton('ɴᴇxᴛ ⏩', callback_data='helop')
@@ -937,6 +940,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "spshiva2":
         buttons= [[
+            InlineKeyboardButton('⏪ ʙᴀᴄᴋ', callback_data='helop')
+            ],[
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('⛔ ᴄʟᴏsᴇ', callback_data='close_data'),
             InlineKeyboardButton('ɴᴇxᴛ ⏩', callback_data='heloop')
@@ -949,6 +954,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "spshiva3":
         buttons= [[
+            InlineKeyboardButton('⏪ ʙᴀᴄᴋ', callback_data='heloop'),
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('⛔ ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
