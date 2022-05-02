@@ -6,13 +6,11 @@ Very Sempil Bot Auto Filter bot
 ![Spidey](https://telegra.ph/file/fb335307d6502801febf5.jpg)
 
 
+<h3 align="center">𝗖𝗢𝗡𝗧𝗔𝗖𝗧<img align="center" src="https://github.com/PANDITHAN/PANDITHAN/blob/main/assets/Handshake.gif" height="33px" /></h3>
+<p align="center">
+<a href="https://t.me/OGGY123kph"><img alt="Telegram" src="https://img.shields.io/badge/𝖣ᴇᴠᴇʟᴏᴘᴇʀ-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+</p>
 
-
-[![Stars](https://img.shields.io/github/stars/Aadhi000/Ajax-Extra-Features?style=flat-square&color=green)](https://github.com/Aadhi000/Ajax-Extra-Features/stargazers)
-[![Forks](https://img.shields.io/github/forks/Aadhi000/Ajax-Extra-Features?style=flat-square&color=blue)](https://github.com/Aadhi000/Ajax-Extra-Features/fork)
-[![Size](https://img.shields.io/github/repo-size/Aadhi000/Ajax-Extra-Features?style=flat-square&color=red)](https://github.com/Aadhi000/Ajax-Extra-Features)   
-[![Open Source happy ](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Aadhi000/Ajax-Extra-Features)   
-[![Contributors](https://img.shields.io/github/contributors/Aadhi000/Ajax-Extra-Features?style=flat-square&color=green)](https://github.com/Aadhi000/Ajax-Extra-Features/graphs/contributors)
 ## Features
 
 - [x] Auto Filter
