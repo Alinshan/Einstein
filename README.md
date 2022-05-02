@@ -1,12 +1,11 @@
-<p align="center">
-  <img src="assets/AJAX.png" alt="Ajax-Extra-FeaturesLogo">
+# COBY_FILTER_BOT
+Very Sempil Bot Auto Filter bot
+##[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Bot+Name+»+Spidey+Filter+Bot!;created+by+MH+Botz!;A+simple+autofilter+Bot!;Auto+filter+with+double+button!;start+message+with+pic!;and+all+futures!)
 </p>
-<h1 align="center">
-  <b>𝙰𝙹𝙰𝚇-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂</b>
-</h1>
 
-<a href="https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA">
-  <img src="https://img.shields.io/badge/𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴-black?logo=youtube" width="150">
+![Spidey](https://telegra.ph/file/fb335307d6502801febf5.jpg)
+
+
 
 
 [![Stars](https://img.shields.io/github/stars/Aadhi000/Ajax-Extra-Features?style=flat-square&color=green)](https://github.com/Aadhi000/Ajax-Extra-Features/stargazers)
