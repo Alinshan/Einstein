@@ -1,5 +1,3 @@
-Skip to content
-Ssf
 from pyrogram import filters
 from aiohttp import ClientSession
 from pyrogram import Client as bot
