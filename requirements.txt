@@ -50,3 +50,4 @@ ffmpeg
 Pillow
 ujson
 carbonnow==0.0.1
+speedtest-cli
