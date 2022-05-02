@@ -9,7 +9,9 @@ Very Sempil Bot Auto Filter bot
 <h3 align="center">𝗖𝗢𝗡𝗧𝗔𝗖𝗧<img align="center" src="https://github.com/PANDITHAN/PANDITHAN/blob/main/assets/Handshake.gif" height="33px" /></h3>
 <p align="center">
 <a href="https://t.me/OGGY123kph"><img alt="Telegram" src="https://img.shields.io/badge/𝖣ᴇᴠᴇʟᴏᴘᴇʀ-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+<a href="https://t.me/Aadhi011"><img alt="Telegram" src="https://img.shields.io/badge/ᴅᴇᴠ 2-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
 </p>
+
 
 ## Features
 
