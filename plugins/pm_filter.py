@@ -254,7 +254,7 @@ async def advantage_spoll_choker(bot, query):
     if not movies:
         return await query.answer("𝐋𝐢𝐧𝐤 𝐄𝐱𝐩𝐢𝐫𝐞𝐝 𝐊𝐢𝐧𝐝𝐥𝐲 𝐏𝐥𝐞𝐚𝐬𝐞 𝐒𝐞𝐚𝐫𝐜𝐡 𝐀𝐠𝐚𝐢𝐧 🙂.", show_alert=True)
     movie = movies[(int(movie_))]
-    await query.answer('𝙲𝙷𝙴𝙲𝙺𝙸𝙽𝙶 𝙵𝙸𝙻𝙴 𝙾𝙽 𝙼𝚈 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴...//')
+    await query.answer('Iam Finding...🔍')
     k = await manual_filters(bot, query.message, text=movie)
     if k == False:
         files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
@@ -494,21 +494,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ms = await client.send_cached_media(
                     chat_id=CH_FILTER,
                     file_id=file_id,
-                    caption=f'<b>Hey 👋 {query.from_user.mention} 😍\n\n🔖 Name : <i><a href=https://t.me/Spidey_Files>{title}</a></i></b>\n\n<b><i>🎗 Size : {size}</b></i>\n\n<i>⚠️ This Message Will Be Auto-Deleted In Next 5 Minutes T𝘰 Avoid Copyright Issues.So Forward This File To Anywhere Else Before Downloading.. ⚠️</i>\n\n<b><i>കോപ്പിറൈറ്റ് ഉള്ളതുകൊണ്ട് ഫയൽ 5 മിനിറ്റിനുള്ളിൽ ഇവിടെനിന്നും ഡിലീറ്റ് ആകുന്നതാണ് അതുകൊണ്ട് ഇവിടെ നിന്നും മറ്റെവിടെക്കെങ്കിലും മാറ്റിയതിന് ശേഷം ഡൗൺലോഡ് ചെയ്യുക ⚠️</i></b>',
+                    caption=f'<b>Hey 👋 {query.from_user.mention} 😍\n\n📂 File Name</b> : <code>{title}</code>\n\n<b>⚙️ File Size : {size}</b>\n\n<i>⚠️ This Message Will Be Auto-Deleted In Next 5 Minutes T𝘰 Avoid Copyright Issues.So Forward This File To Anywhere Else Before Downloading.. ⚠️</i>\n\n<i>കോപ്പിറൈറ്റ് ഉള്ളതുകൊണ്ട് ഫയൽ 5 മിനിറ്റിനുള്ളിൽ ഇവിടെനിന്നും ഡിലീറ്റ് ആകുന്നതാണ് അതുകൊണ്ട് ഇവിടെ നിന്നും മറ്റെവിടെക്കെങ്കിലും മാറ്റിയതിന് ശേഷം ഡൗൺലോഡ് ചെയ്യുക ⚠️</i>',
                     protect_content=True if ident == "filep" else False 
                 )
                 msg1 = await query.message.reply(
-                f'<b><i>Hey 👋 {query.from_user.mention} 😍 \n\n📬 Your File Is Ready 👇</i></b>\n\n'
-                f'<b><i>🔖 Name : <a href=https://t.me/Spidey_Files>{title}</a></i></b>\n\n'
-                f'<b><i>🎗 Size : {size}</b></i>\n\n'
-                '<i>Click The Below Button For Files ⬇️</i>',
+                f'<b><i>Hey 👋 {query.from_user.mention} 😍 \n\n📬 Your File Is Ready</i></b>\n\n'
+                f'<b><i>📂 File Name : <code>{title}</code>\n\n'
+                f'<b><i>⚙️ File Size : </b>{size}</b>\n\n',
                 True,
                 'html',
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📥 Download Link 📥", url = ms.link)
+                            InlineKeyboardButton("📥 Download 📥", url = ms.link)
                         ],
                         [
                             InlineKeyboardButton("⚠️ Can't Access ❓ Click Here ⚠️", url = f"{CH_LINK}")
