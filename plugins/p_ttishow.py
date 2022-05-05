@@ -43,7 +43,7 @@ async def save_group(bot, message):
             ]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>›› Thanks To Adding Me To This Group \n›› Don't Forget Make Admin 🙃\n›› Is Any Doubts About Using Me Click Below Button..⚡⚡.</b>",
+            text=f"<b>›› Thanks To Adding Me To This Group \n›› Don't Forget To Make Me Admin 🙃\n›› Is Any Doubts About Using Me Click Below Button..⚡⚡.</b>",
             reply_markup=reply_markup)
     else:
         for u in message.new_chat_members:
@@ -66,7 +66,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/Coby_Support')
+            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/MOVIE_HUB_TG')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
