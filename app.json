@@ -1,7 +1,7 @@
 {
-    "name": "ᗩᒍᗩ᙭",
+    "name": "Einstein",
     "description": "This Bot Will Help You To Store Files In Cloud Storage. You Can Add Files To The Bot By Forward the last file from a public channel to your bot and Press Yes Button.. If The Files Channl Is Private Make the bot admin on the channel and forward the last file to bot. Then Add the bot to you group and send the movie name The Bot Will Give the file in Bot PM..✮✮",
-    "logo": "https://telegra.ph/file/1b837a8df2670b0097aaf.jpg",
+    "logo": "https://telegra.ph/file/ae9155b9eed774972c714.jpg",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Aadhi000/Ajax",
-    "repository": "https://github.com/Aadhi000/Ajax",
+    "website": "https://github.com/Alinshan/Einstein",
+    "repository": "https://github.com/Alinshan/Einstein",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -99,7 +99,7 @@
             "required": false  
         },
         "SINGLE_BUTTON": {
-            "description": "choose b/w single or double buttons https://github.com/Aadhi000/Ajax/issues/22",
+            "description": "choose b/w single or double buttons https://github.com/Alinshan/Einstein/issues/22",
             "value": "True",
             "required": false
         },
