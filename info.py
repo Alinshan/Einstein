@@ -44,7 +44,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS' ,'https://telegra.ph/file/3d87cdb638b5444198c59.jpg https://telegra.ph/file/2140af3c0cb1c848ef5a0.jpg https://telegra.ph/file/f5c3720b2ce9d1d97d59f.jpg https://telegra.ph/file/e67137996688342d75f1e.jpg')).split()
+PICS = (environ.get('PICS' ,'https://telegra.ph/file/ae9155b9eed774972c714.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -95,8 +95,8 @@ PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 DELETE_TIME = int(environ.get('DELETE_TIME', 300))
-CH_LINK = environ.get('CH_LINK', "https://t.me/Spidey_Files")
-CH_FILTER = int(environ.get('CH_FILTER', -1001793147026))
+CH_LINK = environ.get('CH_LINK', "https://t.me/+eqYcI8xNKzs2MzEx")
+CH_FILTER = int(environ.get('CH_FILTER', -1001546043562))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
