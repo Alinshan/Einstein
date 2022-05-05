@@ -6,7 +6,7 @@ else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Einstein
 fi
-cd /Ajax
+cd /Einstein
 pip3 install -U -r requirements.txt
 echo "Starting Einstein....🔥"
 python3 bot.py
