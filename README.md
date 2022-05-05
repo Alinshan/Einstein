@@ -1,16 +1,8 @@
-# COBY_FILTER_BOT
-Very Sempil Bot Auto Filter bot
-##[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Bot+Name+»+Spidey+Filter+Bot!;created+by+MH+Botz!;A+simple+autofilter+Bot!;Auto+filter+with+double+button!;start+message+with+pic!;and+all+futures!)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Bot+Name+»+Einstein+Filter+Bot!;Created+By+Alinshan!;A+simple+Autofilter+Bot!;Auto+filter+with+double+button!;start+message+with+pic!;and+more+features!)
 </p>
 
-![Spidey](https://telegra.ph/file/fb335307d6502801febf5.jpg)
+![Einstein](https://telegra.ph/file/ae9155b9eed774972c714.jpg)
 
-
-<h3 align="center">𝗖𝗢𝗡𝗧𝗔𝗖𝗧<img align="center" src="https://github.com/PANDITHAN/PANDITHAN/blob/main/assets/Handshake.gif" height="33px" /></h3>
-<p align="center">
-<a href="https://t.me/OGGY123kph"><img alt="Telegram" src="https://img.shields.io/badge/𝖣ᴇᴠᴇʟᴏᴘᴇʀ-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-<a href="https://t.me/Aadhi011"><img alt="Telegram" src="https://img.shields.io/badge/ᴅᴇᴠ 2-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-</p>
 
 
 ## Features
@@ -59,19 +51,15 @@ You can deploy this bot anywhere.
 <summary>Deploy To Heroku</summary>
 <br>
 <p>
-<a href="https://heroku.com/deploy?template=https://github.com/Aadhi000/Ajax-Extra-Featurez">
+<a href="https://heroku.com/deploy?template=https://github.com/ERR0R-x-PREDAT0R/filter">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
 
-<a href="https://youtu.be/kB9TkCs8cX0">
-  <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147">
-</a><br>
-
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Aadhi000/Ajax-Extra-Features
+git clone https://github.com/Alinshan
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -107,8 +95,6 @@ python3 bot.py
 * /ban  - to ban a user.
 * /unban  - to unban a user.
 * /channel - to get list of total connected channels
-* /broadcast - to broadcast a message to all Ajax users
+* /broadcast - to broadcast a message to all  users
 ```
 
-<b>✮ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 ›› [𝐀𝐚𝐝𝐡𝐢](https://t.me/Aadhi011)</b>                                                                                                                                                                                     
-<b>✮ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› [𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐳](https://t.me/MWUpdatez)</b>
