@@ -17,21 +17,19 @@ Welcome to Help Area 3 🎁</b>"""
     SPSHIVA3_TXT = """<b><i>This Is The Module Page Info</i>
 
 🔰 Your Taken Page Is 3/3 📖</b>"""
-    ABOUT_TXT = """<b>🤖 𝖡ᴏᴛ ɴᴀᴍᴇ : <a href='http://t.me/Spidey_Autofilterbot'>sᴘɪᴅᴇʏ</a>
+    ABOUT_TXT = """<b>🤖 ʙᴏᴛ ɴᴀᴍᴇ : <a href='http://t.me/Einstein_v1Bot'>ᴇɪɴsᴛᴇɪɴ</a>
 
-📝 𝖫ᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/'>𝖯ʏᴛʜᴏɴ</a>
+📝 ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/'>ᴘʏᴛʜᴏɴ</a>
 
-📚 𝖥ʀᴀᴍᴇᴡᴏʀᴋ : <a href='https://github.com/pyrogram/pyrogram'>𝖯ʏʀᴏɢʀᴀᴍ</a>
+📚 ғʀᴀᴍᴇᴡᴏʀᴋ : <a href='https://github.com/pyrogram/pyrogram'>ᴘʏʀᴏɢʀᴀᴍ</a>
 
-📡 𝖧ᴏsᴛᴇᴅ ᴏɴ : <a href='http://heroku.com/'>𝖧ᴇʀᴏᴋᴜ</a>
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : <a href='http://heroku.com/'>ʜᴇʀᴏᴋᴜ</a>
 
-👨‍💻 𝖣ᴇᴠᴇʟᴏᴘᴇʀ : <a href='http://t.me/OGGY123kph'>𝖲ʜɪᴠᴀ</a>
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='http://t.me/ERROR_X_PREDATOR'>ᴀʟɪɴsʜᴀɴ</a>
 
-📃 𝖲ᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/kgf_2_movie_r'>𝖢ʟɪᴄᴋ ʜᴇʀᴇ</a>
+👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href='https://t.me/+8bR-OoqDDtUxZDQ1'>ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ</a>
 
-👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href='https://t.me/Coby_Support'>𝖬𝖧 ʙᴏᴛs</a>
-
-📢 𝖴ᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/+NeK_dvXeatwyMWRl'>𝖬𝖧 ʙᴏᴛs</a></b>"""
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/movies_hub_tg1'>ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs</a></b>"""
     
     FILE_TXT = """➤ Help: File Store Module..🛃
 
@@ -46,7 +44,7 @@ Welcome to Help Area 3 🎁</b>"""
 <b><i>⪼ Example ›</i></b>
 <code>/batch https://t.me/c/1541932075/4957 https://t.me/c/1541932075/4958</code>
 
-<b>Credits</b> ›› <a href=https://t.me/moviehubgroupp><b>MH-UPDATES</b></a>"""
+<b>Credits</b> ›› <a href=https://t.me/+8bR-OoqDDtUxZDQ1><b>Movies Hub</b></a>"""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 •/whois :-give a user full details"""
@@ -60,19 +58,18 @@ Note:- Give a user details
 4. /Goal or /Shoot - To Make A Goal Or Shoot 
 5. /luck or /cownd - Spin And Try Your Luck"""
     DEPLOY_TXT = """<b>𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?</b> 
-  
-<b>✮ Deploy Tutorial ››</b> <i><b>https://youtu.be/kB9TkCs8cX0</b></i>
 
-<b>𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙷𝙴 𝙰𝙹𝙰𝚇-𝙿𝚁𝙾-𝙼𝙰𝚇 𝚁𝙴𝙿𝙾 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 <a href=https://t.me/Aadhi011>𝙰𝙰𝙳𝙷𝙸</a></b>
+
+<b>𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙷𝙴 𝚁𝙴𝙿𝙾 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 <a href=https://t.me/ERROR_X_PREDATOR>Alinshan</a></b>
 
 <b>𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴</b>
 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/MWUpdatez><b>𝙼𝚆-𝚄𝙿𝙳𝙰𝚃𝙴𝚉</b></a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭  will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and Einstein  will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. ᗩᒍᗩ᙭ should have admin privillage.
+1. Einstein should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -83,12 +80,12 @@ Note:- Give a user details
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     SONG_TXT = """<b>🎵 Song Download Module 🎵</b>
 
-<i>Song Download Module, For Those Who Love Music. You Can Use This Feature For Download Any Song With Suoer Fast Speed...🚀</i>
+<i>Song Download Module, For Those Who Love Music. You Can Use This Feature For Download Any Song  Speedly...🚀</i>
 
 <b>Commands</b>
 ››  /song Song Name
 
-<b>📝 Credits :- <a href=https://t.me/MovieHubOtt>MH-Updates</a></b>"""
+<b>📝 Credits :- <a href=https://t.me/+8bR-OoqDDtUxZDQ1>Movie Hub</a></b>"""
     PIN_TXT ="""<b>PIN MODULE</b>
 
 <b>Pin A Message../</b>
@@ -180,7 +177,7 @@ Delete A Lot Of Messages From Groups!
 ◉ /purge :- Delete All Messages From The Replied To Message, To The Current Message"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
--sᴘɪᴅᴇʏ  Supports both url and alert inline buttons.
+-ᴇɪɴsᴛᴇɪɴ ʙᴏᴛ Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
@@ -188,7 +185,7 @@ Delete A Lot Of Messages From Groups!
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/Spidey_Files)</code>
+<code>[Button Text](buttonurl:https://t.me/+eqYcI8xNKzs2MzEx)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -217,7 +214,7 @@ Delete A Lot Of Messages From Groups!
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-These are the extra features of sᴘɪᴅᴇʏ 📝
+These are the extra features of Einstein Bot 📝
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specifed user.</code>
@@ -247,13 +244,13 @@ This module only works for my admins
 <b>🗃️ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ : <code>{}</code></b>
 <b>📂 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ : <code>{}</code></b>"""
     LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
-   🔮 sᴘɪᴅᴇʏ ʙᴏᴛ 🔮
+   🎈 ᴇɪɴsᴛᴇɪɴ ʙᴏᴛ 🎈
 <b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
 <b>᚛› 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 ⪼ <code>{}</code></b>
 <b>᚛› 𝐀𝐝𝐝𝐞𝐝 𝐁𝐲 ⪼ {}</b>
 """
     LOG_TEXT_P = """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫
-   🔮 sᴘɪᴅᴇʏ ʙᴏᴛ 🔮
+   🎈 ᴇɪɴsᴛᴇɪɴ ʙᴏᴛ 🎈
 <b>᚛› 𝐈𝐃 - <code>{}</code></b>
 <b>᚛› 𝐍𝐚𝐦𝐞 - {}</b>
 """
@@ -285,7 +282,7 @@ This Commands Helps You To <b>Report</b> A Message Or A User To The Admins Of Th
 <b>➪ /short</b>: <i>Use This Command With Your Link To Get Shorted Links
 
 ➛ Example:</i>
-<code>/short https://youtu.be/8xp8s6tj0Ts</code>"""
+<code>/short (link)</code>"""
 
     VIDEO_TXT ="""<b>📚 HELP : YOUTUBE Video</b>
 
@@ -293,10 +290,10 @@ This Commands Helps You To <b>Report</b> A Message Or A User To The Admins Of Th
 𝘠𝘰𝘶 𝘊𝘢𝘯 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘈𝘯𝘺 𝘝𝘪𝘥𝘦𝘰 𝘍𝘳𝘰𝘮 𝘠𝘰𝘶𝘵𝘶𝘣𝘦
 
 𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
-• 𝘛𝘺𝘱𝘦 /video or /mp4 𝘈𝘯𝘥 (https://youtu.be/8xp8s6tj0Ts)
+• 𝘛𝘺𝘱𝘦 /video or /mp4 𝘈𝘯𝘥 ((yt video link))
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦:
-🔖<code>/mp4 https://youtu.be/8xp8s6tj0Ts</code>
-🔖<code>/video https://youtu.be/8xp8s6tj0Ts</code>"""
+🔖<code>/mp4 (yt video link)</code>
+🔖<code>/video (yt video link)</code>"""
 
     ZOMBIES_TXT = """<b>📚 HELP : Kick Users</b>
 
@@ -337,7 +334,7 @@ Helps You To Download Any Youtube Video Thumbnail 🖼️
 𝘛𝘺𝘱𝘦 /ytthumb 𝘈𝘯𝘥 𝘝𝘪𝘥𝘦𝘰 𝘓𝘪𝘯𝘬
 
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦
-<code>/ytthumb https://youtu.be/8xp8s6tj0Ts</code>"""
+<code>/ytthumb (yt video link)</code>"""
 
     ABOOK_TXT = """<b>📚 HELP : AudioBook</b>
 
