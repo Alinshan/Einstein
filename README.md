@@ -1,7 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Bot+Name+»+Einstein+Filter+Bot!;Created+By+Alinshan!;A+simple+Autofilter+Bot!;Auto+filter+with+double+button!;start+message+with+pic!;and+more+features!)
 </p>
 
-![Einstein](https://telegra.ph/file/ae9155b9eed774972c714.jpg)
+[Einstein](https://telegra.ph/file/ae9155b9eed774972c714.jpg)
 
 
 
